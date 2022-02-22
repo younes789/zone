@@ -1,0 +1,137 @@
+body{
+    line-height: 1.8em;
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html {
+    background-image: linear-gradient(#78B20D,  #000000, #000000);
+}
+blockquote p::before {
+    content: open-quote;
+    font: 8rem/1.4 Georgia, serif;
+    color: #669900;
+    position: absolute;
+    font-size: 180px;
+    margin-left: -80px;
+    margin-top: -80px;
+    
+  }
+  blockquote p  {
+    margin-left: 100px;
+  }
+  blockquote em{
+    color: #669900;
+  }
+#wrap{
+    max-width: 750px;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+#header {
+  text-align: center;
+  background-image: linear-gradient(#78B20D,  #4FA401, #549306);
+    padding: 60px;
+    color: white;
+    box-shadow: 5px 40px 18px -18px #CFE0B5;
+}
+#header h1 a{
+    color: #FEFDEC;
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 6px;
+    color: black;
+}
+nav ul li:first-child{
+    background-color: white;
+}
+#content{
+    max-width: 920px;
+    margin: auto;
+}
+#content p{
+    color: #373543;
+}
+.post h2 a{
+    text-decoration: none;
+    color: black;
+}
+.author a{
+    color:#9B9BB6;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+blockquote{
+    quotes: "“" "”" "‘" "’";
+}
+ul.special_bullet {
+    list-style: none;
+    }
+    
+    ul.special_bullet li:before {
+    color: #4FA401;
+    content: ' \2192';
+    }
+.post p a:last-child{
+    color: #4FA401;
+}
+.post ol li a:last-child{
+    color: #4FA401;
+    text-decoration: none;
+}
+.post ul li a:last-child{
+    color: #4FA401;
+    text-decoration: none;
+}
+.post h3{
+    color: #4FA401;
+}
+.notice{
+    text-align: center;
+    background-image: linear-gradient(#78B20D,  #4FA401, #549306);
+    padding: 12px;
+    color: white;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.notice a{
+    text-decoration: none;
+    color: #FEFDEC;
+}
+#attribution{
+    background-color: #000000;
+    text-align: center;
+    padding-top: 20px;
+}
+#attribution a {
+    color: #4FA401;
+    text-decoration: none;
+    font-size: 10px;
+}
+#attribution span{
+    color: #4FA401;
+    font-size: 10px;
+}
+@media screen and (max-width: 700px) {
+    body{
+        max-width: 600px;
+    }
+    #wrap{
+        max-width: 540px;
+    }
+    nav ul{
+        gap: -10px;
+    }
+    
+  }
